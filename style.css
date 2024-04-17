@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #644228;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+main{
+    background-color: #ffefd0;
+    /* height: 100vh; */
+
+}
+
+.lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: white;
+}
+.commissioner-400-regular {
+    font-family: "Commissioner", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main .slogan{
+    padding: 10px;
+}
+
+.slogan h2{
+padding: 20px;
+background-color: #a9db9a;
+width: 280px;
+border: 1px solid #a9db9a;
+border-radius: 50px;
+text-align: center;
+
+}
+
+
+.bookshelf{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 120px;
+    row-gap: 20px;
+    padding: 50px;
+}
+
+.bookshelf .book .booktitle{
+    text-align: center;
+}
+
+.bookshelf .book .bookcover{
+    background-color: white;
+    height: 250px;
+    text-align: center;
+}
