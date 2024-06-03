@@ -40,6 +40,15 @@ body {
     cursor: pointer;
 }
 
+.typewriter{
+    width: 65%;
+    margin-top: 60px;
+}
+
+#twtext{
+    text-align: center;
+}
+
 .about h1 {
     color: rgb(40, 40, 40);
     font-weight: 700;
