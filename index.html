@@ -1,48 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Grotesk&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="content/Untitled_Artwork 2.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Grotesk&display=swap"
+        rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="content/Untitled_Artwork 2.png" />
     <title>8Tigereyes</title>
 </head>
+
 <body>
 
-    
+    <!--DONT LOOK AT MY SEMANTICS AND CLASSNAMES, ITS IN PROGRESS-->
     <div class="left-side">
-        <img class="side-img" src="content/photo-1606440894295-8a79c32fdaf4.avif" alt="left">
+        <div class="hidden" id="career">
+            <div class="times">
+                <div class="timeframe">
+                    <h3>Study</h3>
+                    <h2>2016-2017</h2>
+                    <p>Journalism @ Artevelde H.</p>
+                </div>
+                <div class="timeframe">
+                    <h3>Study</h3>
+
+                    <h2>2017-2019</h2>
+                    <p>Game graphics Production @ DAE</p>
+                </div>
+                <div class="timeframe">
+                    <h3>Study</h3>
+
+                    <h2>2022-...</h2>
+                    <p>Applied Informatics @ Vives H.</p>
+                </div>
+                <div class="timeframe">
+                    <h3>Current job</h3>
+
+                    <h2>2023-...</h2>
+
+                    <p>Support Engineer @ Edpnet</p>
+                </div>
+            </div>
+        </div>
+        <img class="side-img" src="content/photo-1606440894295-8a79c32fdaf4.avif" alt="left" />
     </div>
 
-    <header>
-       
+    <div class="middle">
         <div class="about">
-        
-        <h1 class="space-grotesk-title">
-            Ài lì shā
-        </h1>
-        <h2>Student Applied Informatics</h2>
+            <h1 class="space-grotesk-title">Alyssa</h1>
+            <h2>Student Applied Informatics</h2>
+        </div>
     </div>
-        <nav>
-            <ul>
-                <li><a class="link-side" href="index.html">Career</a></li>
-                <li><a href="about.html">Projects</a></li>
-                <li><a class="link-side" href="contact.html">Lab</a></li>
-            </ul>
-        </nav>
-    </header>
 
     <div class="right-side">
-        <img class="side-img"src="content/photo-1598756263428-ee90d1273bf1.avif" alt="left">
+        <div class="hidden" id="lab">
+            <div class="bubblegallery">
+                <div class="bubble b1">
+                    <img class="bubbleimg" src="content/apple.avif" alt="apple">
+                </div>
+                <div class="bubble b2">
+                    <img class="bubbleimg" src="content/leaf.avif" alt="apple">
+                </div>
+                <div class="bubble b3">
+                    <img class="bubbleimg" src="content/plant.avif" alt="apple">
+                </div>
+                <!-- <div class="bubble b4">
+                    <img class="bubbleimg" src="content/flower.avif" alt="apple">
+                    </div> -->
+            </div>
+           
+        </div>
 
+        <img class="side-img" src="content/photo-1598756263428-ee90d1273bf1.avif" alt="left">
     </div>
-       
-    
-    
+
+
+    <!--probably can just make buttons inside each column, but I'll keep it like this for now, I like the 'hovering'-->
+    <div class="hover-over">
+        <div class="buttons">
+            <div class="buttonbody">
+                <button class="show-button" id="buttonCareer" onclick="toggleDiv('career')">
+                    Career
+                </button>
+            </div>
+            <div class="buttonbody">
+                <button class="show-button" id="buttonProjects" onclick="toggleDiv('/')">
+                    Projects
+                </button>
+            </div>
+            <div class="buttonbody">
+                <button class="show-button" id="buttonLab" onclick="toggleDiv('lab')">
+                    Lab
+                </button>
+            </div>
+
+        </div>
+    </div>
 
     <script src="code.js"></script>
 </body>
+
 </html>
