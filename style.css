@@ -132,6 +132,7 @@ body {
     width: 200px;
     height: 200px;
     overflow:hidden;
+    margin: 0 auto;
 }
 
 .bubbleimg{
@@ -155,6 +156,11 @@ body {
     grid-column: 1;
     grid-row: 3;
 }
+
+/* .b4{
+    grid-column:2;
+    grid-row:4;
+} */
 
 .times {
     display: flex;
