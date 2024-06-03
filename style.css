@@ -174,7 +174,7 @@ body {
 }
 
 .timeframe h3 {
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.766);
     font-style: italic;
     font-size: 14px;
 }
