@@ -2,6 +2,9 @@ let i = 0;
 let txt = "Hey, nice to meet you! Let's create amazing websites together! ✨"; 
 let speed = 60; 
 
+
+
+//this thing does not work on the Firefox browser
 function typeWriter() {
   if (i < txt.length) {
     document.getElementById("twtext").innerHTML += txt.charAt(i);
