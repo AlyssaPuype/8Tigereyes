@@ -197,3 +197,13 @@ body {
     text-decoration: none;
 
 }
+
+.update{
+    position: absolute;
+    top:0;
+    z-index: 1;
+    font-style: italic;
+    font-size: 12px;
+    color: rgba(96, 31, 11, 0.678);
+    padding: 10px;
+}
