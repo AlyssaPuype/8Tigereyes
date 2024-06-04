@@ -224,7 +224,7 @@ body {
     color: rgba(96, 31, 11, 0.678);
     padding: 10px;
 }
-
+/* 
 @media screen and (max-width: 768px) {
     body {
         display: flex;
@@ -286,4 +286,4 @@ body {
         opacity: 1;
     }
 
-}
+} */
