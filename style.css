@@ -249,7 +249,8 @@ body {
     }
 
     .buttons {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
     }
 
     .buttonbody {
@@ -285,7 +286,4 @@ body {
         opacity: 1;
     }
 
-    .hover-over {
-        display: none;
-    }
 }
